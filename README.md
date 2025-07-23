@@ -1,6 +1,6 @@
 
 
-# <div align="center">✨VRAG-RL: Moving Towards Next-Generation RAG via Multi-Modal Agent RL<div>
+# <div align="center">✨VRAG: Moving Towards Next-Generation RAG via Multi-Modal Agent<div>
 
 <div align="center">
 <!-- <h1>A Multi-round Multi-modal Reinforcement Learning Framework</h1> -->
@@ -10,55 +10,12 @@
 <a href="https://huggingface.co/autumncc/Qwen2.5-VL-7B-VRAG" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model-blue></a>
 </div>
 
-<div align="center" style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">
-  <table style="border-collapse: collapse; margin: 0 auto;">
-    <tr>
-      <td style="padding: 5px;">
-        <img src="assets/gif1.gif" alt="GIF1" width="200" style="border-radius: 5px;" loop="infinite">
-      </td>
-      <td style="padding: 5px;">
-        <img src="assets/gif2.GIF" alt="GIF2" width="200" style="border-radius: 5px;" loop="infinite">
-      </td>
-      <td style="padding: 5px;">
-        <img src="assets/gif3.GIF" alt="GIF3" width="200" style="border-radius: 5px;" loop="infinite">
-      </td>
-    </tr>
-  </table>
-</div>
-
-<https://github.com/user-attachments/assets/6d9bd7af-4ad9-4804-910b-2b2c5b2e0c35>
-
-<https://github.com/user-attachments/assets/22c90e3e-ec04-4967-9bb9-52d8c1ebd410>
-
-
-
-<!-- **⌛️ The project is still under ongoing development:**
-- [x] Draft Demo
-- [x] Model Release
-- [ ] More Comprehensive Demo
-- [ ] Training Code -->
-
-
-
-## 🔥 News
-- 🎉 We have released the demo, allowing you to customize your own VRAG.
-- 🎉 Our framework integrates SOTA visual embedding models, enabling you to create your own retriever.
-- 🎉 We are releasing our 7B model and will gradually release models in more sizes. Welcome to use!
-- ⏳ The project is still under ongoing development, and the training code will be available soon~
-<!-- - ⌛️ Training code will be released soon. -->
-<!-- - 🎉 Our framework integrates various embedding models, enabling you to create your own retriever.
-- 🎉 We have released the ViDoSeek dataset, which is suitable for Retrieval-augmented Generation in the large visually rich document collection. -->
 
 ## 🚀 Overview
 - We introduce **VRAG**, a purely visual RAG agent that enables VLMs to progressively gather information from a coarse-grained to a fine-grained perspective.
 - We propose **VRAG-RL**, a novel reinforcement learning framework tailored for training VLMs to effectively reason, retrieve, and understand visually rich information.
 - We have released the **training framework** of VRAG-RL, a novel multi-turn and multimodal training framework with strong extensibility, capable of supporting training with various tools.
 
-<div align="center">
-<p align="center">
-  <img src="assets/perception.jpg" width="80%" height="60%" />
-</p>
-</div>
 
 ## 🔍 Quick Start
 
@@ -173,26 +130,4 @@ pip install -e .
 
 ### Step3. Run RL Training with Qwen2.5-VL-Instruct. -->
 
-## 🙏 Acknowledge
-This work is implemented based on [ViDoRAG](https://github.com/Alibaba-NLP/ViDoRAG), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), and [verl](https://github.com/volcengine/verl). We greatly appreciate their valuable contributions to the community.
-
-
-## 📝 Citation
-
-```bigquery
-@misc{wang2025vragrlempowervisionperceptionbasedrag,
-      title={VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning}, 
-      author={Qiuchen Wang and Ruixue Ding and Yu Zeng and Zehui Chen and Lin Chen and Shihang Wang and Pengjun Xie and Fei Huang and Feng Zhao},
-      year={2025},
-      eprint={2505.22019},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.22019}, 
-}
-```
-
-## Our Projects
-Explore our additional research on Visual Retrieval-augmented Generation.
-
-ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents. A novel RAG framework that utilizes a multi-agent, actor-critic paradigm for iterative reasoning, enhancing the noise robustness of generation models. Code released at: [https://github.com/Alibaba-NLP/ViDoRAG](https://github.com/Alibaba-NLP/ViDoRAG) [![GitHub stars](https://img.shields.io/github/stars/Alibaba-NLP/ViDoRAG?style=social)](https://github.com/Alibaba-NLP/ViDoRAG)
 
